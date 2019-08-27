@@ -1,0 +1,22 @@
+body {
+  width: 200px;
+  background-color: #111111;
+  color:#ffffff
+}
+
+#inputtime {
+  width: 20px;
+}
+
+#chashmishOff {
+  float: right;
+}
+
+.chashmish-buttons {
+  margin-top: 5px;
+}
+
+
+#time {
+  float: right;
+}
