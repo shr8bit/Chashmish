@@ -5,5 +5,5 @@ chrome.alarms.onAlarm.addListener(function() {
 		title: 'Gentle reminder',
 		message: 'Blink your eyes!'
 	}, function() {});
-	setTimeout(function() { chrome.notifications.clear('reminder', function(){}); }, 2000);
+	setTimeout(function() { chrome.notifications.clear('reminder', function(){}); }, 3000);
 });
