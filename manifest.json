@@ -3,7 +3,7 @@
 
   "manifest_version": 2,
   "name": "Chashmish",
-  "description": "",
+  "description": "This extension helps you in protecting your eye",
   "version": "1.2",
   "browser_action": {
     "default_icon": "icon.png",
@@ -12,6 +12,6 @@
   "permissions": ["alarms", "notifications", "storage"],
   "background": {
     "scripts": ["background.js"],
-    "persistent": true
+    "persistent": false
   }
 }
